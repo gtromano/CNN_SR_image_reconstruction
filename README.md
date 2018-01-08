@@ -91,7 +91,7 @@ This experiment was fully designed and coded by Gaetano Romano.
 - **Email**: gaetano.romano.96@gmail.com, gaetano.romano@ucdconnect.ie
 - **LinkedIn**: [gaetanoromano96](https://www.linkedin.com/in/gaetanoromano96/)
 
-A special thanks to my friend Joris Veens and to his cat Prada. 
+A special thanks to my friend Joris and to his cat Prada. 
 
 ## License
 
