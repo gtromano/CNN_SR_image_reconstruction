@@ -2,13 +2,14 @@
 
 In this small project I tried to build a convolutional neural network to perform image reconstruction (upscaling), increasing the resolution of a 64x64 pixel image to a 128x128 pixel image. The following image shows the input, the model output and the expected input of a test image.
 
-![A frame of a test video](/results/frame.png)
+![A frame of a test video](https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/frame.png)
 
 As one may notice, the results are pretty interesting. The overall loss of the model, infact, was around 0.002.
 In the next image we compare the results with the built-in linear interpolation of skimage. It is noticeable that with just few hours of training this simple architecture archived better clarity and details in the face than the previous mentioned method.
 More examples like this can be found in the folder results.
 
-![Comparison with Skimage upscaling](http://url/to/img.png)
+![Comparison with Skimage upscaling](https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/5.png)
+![Another example] (https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/7.png)
 
 
 ## Getting Started
@@ -95,5 +96,5 @@ This experiment was fully designed and coded by Gaetano Romano.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
