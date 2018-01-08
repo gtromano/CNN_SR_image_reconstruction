@@ -8,8 +8,7 @@ As one may notice, the results are pretty interesting. The overall loss of the m
 In the next image we compare the results with the built-in linear interpolation of skimage. It is noticeable that with just few hours of training this simple architecture archived better clarity and details in the face than the previous mentioned method.
 More examples like this can be found in the folder results.
 
-![Comparison with Skimage upscaling](https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/5.png)
-![Another example] (https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/7.png)
+![Comparison with Skimage upscaling](https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/8.png)
 
 
 ## Getting Started
@@ -79,6 +78,8 @@ The already trained model, lastly, is saved in the file: **model.h5**
 It is interesting that the network _recognize_ particular features included in the images of the given data.
 In other words, it learns how to draw specific patterns included in the training set.
 For example, take the following picture of my friend, Joris, and his marvellous cat, Prada:
+
+![He is a nice kitty](https://github.com/alghul96/CNN_SR_image_reconstruction/blob/master/Results/cat.png)
 
 Notice how from the little data on the eye of the animal it tried to reconstruct cat's pupil.
 Hence, better results in the face of the animal are achieved if one trains the model on just images of cats, for example.
