@@ -73,7 +73,7 @@ The already trained model, lastly, is saved in the file: **model.h5**
 
 ### Training and improve training
 
-It is interesting that the network _recognize_ particular features included in the images of the given data.
+It is interesting that the network _recognizes_ particular features included in the images of the given data.
 In other words, it learns how to draw specific patterns included in the training set.
 For example, take the following picture of my friend, Joris, and his marvellous cat, Prada:
 
