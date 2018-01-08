@@ -33,9 +33,9 @@ pip install numpy
 Multiple image datasets and videos were used to train the neural network. I personally used the [Labelled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) (used also for testing) and the cat and dog recognition dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data).
 For the videos, I took some old samples from Wikimedia Commons. The one provvided comes from [here](https://commons.wikimedia.org/wiki/Category:Videos_of_John_F._Kennedy)
 
-**However**, to reproduce the experiment one can easily start from the ready-made datasets contained in the data folder in the format of compressed arrays.
+**However**, to reproduce the experiment one can easily start from the ready-made datasets contained in the a zip file that I am storing, at the moment, [here](https://drive.google.com/file/d/1mqnUoRDNNSbWzZOMbtk3gjzKCkiY-nd3/view?usp=sharing). To avoid mess with the paths, just unpack the .zip in a folder called data. 
 
-If you intend to import the data anyway, you can use the script I wrote **data_preparation.py**
+If you intend to import the data anyway (it's easier in case of a slow internet connection), you can use the script I wrote **data_preparation.py**
 
 
 ### Preparing data
@@ -55,21 +55,19 @@ move D:\rootpath\*\* D:\path
 
 ## Running the experiment
 
-I am used to jump from a script to the other. Hence, I will try to list all the scripts and the preferred order of execution.
-Hopefully, it is clear enough to reproduce everything.
+There is no correct order of execution. If one wish just to see the results, for example, just run [testing](testing.py).  In any case, it follows a list of the script in the preferred order of execution.
 
 ### File Organization
 
-- **data**: folder containing the compressed numpy arrays necessary to the analysis.
 - **results**: folder containing some examples of what the neural net is capable of.
 
 The scripts are the following. One should run them in the order they are listed.
 
-- **data_preparation.py**: code for prepare the previous mentioned data. It is not strictly necessary to run it, because the data folder already contains all the necessary materials.
-- **model.py**: this is the main script, containing the architecture of the model and the lines necesary for the first training.
-- **training.py**: code for training (and continue the training) for the model.
-- **testing.py**: code for testing the model and produce those graphs that are contained in the folder **results**
-- **testing_video.py**: code for generating from (almost) any video a test video and the predicted result.
+- [data_preparation.py](data_preparation.py): code for prepare the previous mentioned data. It is not strictly necessary to run it, because the data folder already contains all the necessary materials.
+- [model.py](model.py): this is the main script, containing the architecture of the model and the lines necesary for the first training.
+- [training.py](training.py): code for training (and continue the training) for the model.
+- [testing.py](testing.py): code for testing the model and produce those graphs that are contained in the folder **results**
+- [testing_video.py](testing_video.py): code for generating from (almost) any video a test video and the predicted result.
 
 The already trained model, lastly, is saved in the file: **model.h5**
 
@@ -89,11 +87,11 @@ Hence, better results in the face of the animal are achieved if one trains the m
 
 This experiment was fully designed and coded by Gaetano Romano. 
 
-
 ### Contacts:
 - **Email**: gaetano.romano.96@gmail.com, gaetano.romano@ucdconnect.ie
 - **LinkedIn**: [gaetanoromano96](https://www.linkedin.com/in/gaetanoromano96/)
 
+A special thanks to my friend Joris Veens and to his cat Prada. 
 
 ## License
 
